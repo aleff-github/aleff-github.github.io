@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Labels
+title: Test Sub
 parent: sub
-nav_order: 3
+nav_order: 1
 ---
 
 # Prova sub
