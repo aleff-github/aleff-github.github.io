@@ -4,6 +4,9 @@ layout: home
 nav_order: 1
 ---
 
+Thank you for visiting my website.
+I'm Alessandro Greco aka Aleff and I am a bachelor's degree graduate in Computer Science.
+I am passionate about Networks and IT security.
 
-
-TODO
+Have a nice time on my website,
+Aleff :-)

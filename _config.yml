@@ -1,11 +1,13 @@
-title: Aleff's WebSite
-description: I'm Alessandro Greco, aka Aleff, a Computer Science graduate with a passion for networks and IT security.
+title: "Aleff's WebSite"
+description: "I'm Alessandro Greco, aka Aleff, a Computer Science graduate with a passion for networks and IT security."
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://aleff-github.github.io/"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  The Site Code: "https://github.com/aleff-github/aleff-github.github.io"
+
+favicon_ico: "/assets/images/glider.gif"
 
 # Enable or disable the site search
 # Supports true (default) or false
