@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tropea Project
-has_children: true
+parent: Repositories
 permalink: /docs/Repositories/Tropea-Project
 nav_order: 2
 ---

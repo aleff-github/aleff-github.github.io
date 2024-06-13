@@ -1,8 +1,8 @@
 ---
 layout: default
 title: My Flipper Shits
-has_children: true
 permalink: /docs/Repositories/my-flipper-shits
+parent: Repositories
 nav_order: 3
 ---
 
