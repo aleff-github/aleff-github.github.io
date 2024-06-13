@@ -3,7 +3,6 @@ layout: default
 title: Tropea Project
 parent: Repositories
 permalink: /docs/Repositories/Tropea-Project
-nav_order: 2
 ---
 
 [![Tropea-Project](https://raw.githubusercontent.com/aleff-github/Tropea-Project/7f5fa92f5c1a6644ea9fb8b45af7673022020c7f/docs/tropea-project.svg)](https://addons.mozilla.org/it/firefox/addon/tropea-project/)

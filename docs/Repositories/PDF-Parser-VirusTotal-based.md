@@ -3,7 +3,6 @@ layout: default
 title: PDF Parser based on VirusTotal API
 parent: Repositories
 permalink: /docs/Repositories/PDF-Parser-VirusTotal-based
-nav_order: 3
 ---
 
 # PDF Parser based on VirusTotal API

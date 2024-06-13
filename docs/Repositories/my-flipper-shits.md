@@ -3,7 +3,6 @@ layout: default
 title: My Flipper Shits
 permalink: /docs/Repositories/my-flipper-shits
 parent: Repositories
-nav_order: 3
 ---
 
 # My Flipper Shits
