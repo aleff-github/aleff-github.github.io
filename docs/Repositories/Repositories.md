@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Projects
+title: Repositories
 has_children: true
-permalink: /docs/Projects
+permalink: /docs/Repositories
 nav_order: 2
 ---
 
