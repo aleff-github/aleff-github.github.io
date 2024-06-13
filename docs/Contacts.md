@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Contacts
 nav_order: 6
 ---
 

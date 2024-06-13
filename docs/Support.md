@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contacts
+title: Support
 nav_order: 5
 ---
 
