@@ -11,7 +11,7 @@ Thank you for visiting my website.
 
 I'm Alessandro Greco aka Aleff and I am a bachelor's degree graduate in Computer Science.
 
-I am passionate about Networks and IT security.
+I am passionate IT security.
 
 
 Have a nice time on my website,
