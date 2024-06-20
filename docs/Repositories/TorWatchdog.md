@@ -13,6 +13,11 @@ Tor Watchdog Bot is a Telegram bot designed to monitor the status of Tor relays 
 
 <img src="https://github.com/aleff-github/TorWatchdog/blob/main/assets/UNOFFICIAL.png?raw=true" width="150"/>
 
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [About](#about)
+
 ## Features
 
 - **Relay Status Monitoring**: The bot regularly checks the status of Tor relays to ensure they are online.
@@ -59,4 +64,4 @@ Tor Watchdog Bot was developed by Alessandro Greco (Aleff) and released under th
 
 For any questions, feedback, or inquiries, feel free to contact via e-mail or Signal
 
-Happy Hacking! 🛡️
+[Happy Hacking](https://stallman.org/articles/happy-hacking.html)! 🛡️

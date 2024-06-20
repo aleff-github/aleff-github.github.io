@@ -16,21 +16,27 @@ Tropea-Project is an open-source project undertaken by a university student for 
 *Tropea Color: #9e264c*
 
 ## Licence
+
 ![Licence](https://img.shields.io/badge/Licence-GNU3-%239e264c?style=for-the-badge) 
 
 ## Components
+
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white) ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
 ## Language Used
+
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## OS Tested
+
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ## OS UnTested
+
 ![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
 # How to use Tropea-Project?
+
 |Platform|Link|
 |--|--|
 |Windows Tutorial|Video: https://peertube.uno/w/1Jwr4jjaPAcNmGLubLHwZV|
@@ -38,9 +44,11 @@ Tropea-Project is an open-source project undertaken by a university student for 
 |MacOS Tutorial Video|Not aviable yet <- Untested|
 
 # How it works?
+
 Tropea-Project extension work in local from the extension command whit node.js and javascript that get the input from the extension and edit torrc file in the TorBrowser folder as the user want, so as the input sent.
 
 # Extension Panel
+
 |Function|Status|
 |--|--|
 |EntryNodes|Work|
@@ -51,6 +59,7 @@ Tropea-Project extension work in local from the extension command whit node.js a
 |Reset|Work|
 
 # Advanced Tropea
+
 |Function|Status|
 |--|--|
 |TorifyApp|*underdevelopment*|
@@ -60,6 +69,7 @@ Tropea-Project extension work in local from the extension command whit node.js a
 |Remove ExcludeExitNodes|Work|
 
 # Styntax Index
+
 |Element/s|Syntax|
 |--|--|
 |\[Add\]EntryNodes|it,de,...|
@@ -70,21 +80,27 @@ Tropea-Project extension work in local from the extension command whit node.js a
 # FAQs
 
 ## Torify function works in every OS?
+
 <strong><u>No Unfortunately!</u></strong> No options for Windows, sadly. They haven’t found a good way to do network isolation there. On macOS, you should be able to “just” use torify but you must copy the binaries over to /tmp for example to torify them.<a href="https://forum.torproject.net/t/how-can-i-use-torify-command-on-else-operating-system/2207">-learn more... -</a>
 
 ## Torify function works with every Application?
+
 <strong><u>Not for all!</u></strong> Unfortunately establishing a 100% secure Tor connection is not easy and therefore development in general is very slow to favor a secure system. There is a list of applications where it has been tested and you can find it by <a href="https://gitlab.torproject.org/legacy/trac/-/wikis/doc/torsocks#security">clicking
  here!</a> Else if you want to see the official response on TorProject Forum <a href="https://forum.torproject.net/t/torify-problem-in-applications-launch/2220/3">click here</a>.
 
 ## Why i must run tropea.js on my computer before use tropea extension?
+
 Tropea-Project's priority is to have anyone modify the tunneling of the tor network, so it was decided to create an interface already known as that of six websites. Fortunately, however, we cannot modify your files simply from an extension, which is why it is necessary to start node.js from your computer to perform all the requests made by the user through the extension.
 
 ## How can i be sure that a country works on Tor Network?
+
 <strong><u> <a href="https://metrics.torproject.org/rs.html#search/country:it">Whit this website</a> </u></strong> you can find all what you need. It is a TorProject service that you can use freely and for free to find Tor Relay for every country. If you don't know what is a Country ID you can use Google or <a href="https://laendercode.net/en/">this website</a>
 
 ## Tropea-Project is secure?
+
 <strong><u>It depends on you</u></strong> Tropea-Project does not interact in any way with your connection, nor does it take any data relating to your device or browser, all the changes you actually make, so it is up to you to be careful to follow the correct syntax but, where you are wrong, simply you would not be able to navigate and in that case it would be enough for you to reset everything using the Reset button and start over.
  
  ## How can i install Tor on my computer?
+ 
 <strong><u> <a href="https://tb-manual.torproject.org/installation/">Follow this guide</a></u>.</strong> Is really simple and you can do it in every OS(Windows, MacOS or Linux).
  
