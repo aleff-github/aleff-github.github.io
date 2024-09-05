@@ -4,8 +4,6 @@ layout: home
 nav_order: 1
 ---
 
-{: .note }
-This website is currently under construction...
 
 Thank you for visiting my website.
 
