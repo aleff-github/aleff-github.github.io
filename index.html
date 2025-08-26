@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="it" data-to="https://aleff-gitlab.gitlab.io/" data-delay="1200">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="color-scheme" content="light dark" />
+  <meta http-equiv="refresh" content="5; url=https://aleff-gitlab.gitlab.io/" />
+  <title>Redirecting…</title>
+  <style>
+    :root { --bg:#ffffff; --fg:#111827; --muted:#6b7280; --card:#f9fafb; --ring:#e5e7eb; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0b0f13; --fg:#e5e7eb; --muted:#9ca3af; --card:#10161c; --ring:#1f2937; } }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body { margin: 0; background:
+      radial-gradient(1000px 600px at 10% -10%, var(--card), transparent),
+      radial-gradient(1000px 600px at 110% 10%, var(--card), transparent), var(--bg);
+      color: var(--fg);
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    .container { height: 100%; display: grid; place-items: center; padding: 24px; }
+    .card {
+      max-width: 560px; width: 100%; background: rgba(255,255,255,.5);
+      backdrop-filter: saturate(120%) blur(8px);
+      border: 1px solid var(--ring); border-radius: 24px; padding: 28px 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    }
+    @media (prefers-color-scheme: dark) {
+      .card { background: rgba(16,22,28,.5); box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+    }
+    .row { display: flex; gap: 16px; align-items: center; }
+    .spinner { width: 18px; height: 18px; border: 2px solid var(--ring); border-top-color: transparent; border-radius: 999px; animation: spin 1s linear infinite; flex: 0 0 18px; }
+    @keyframes spin { to { transform: rotate(1turn); } }
+    h1 { font-size: 1.125rem; margin: 0 0 6px; }
+    p { margin: 0; color: var(--muted); }
+    a { color: inherit; text-decoration-color: rgba(0,0,0,.2); }
+    .button { display: inline-flex; align-items: center; gap: 8px; margin-top: 16px; border: 1px solid var(--ring); border-radius: 12px; padding: 10px 14px; text-decoration: none; }
+    small { display: block; margin-top: 10px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <div class="card" role="status" aria-live="polite">
+      <div class="row">
+        <div class="spinner" aria-hidden="true"></div>
+        <div>
+          <h1>Redirecting…</h1>
+          <p>We are going to <strong id="host">aleff-gitlab.gitlab.io</strong></p>
+        </div>
+      </div>
+      <a id="cta" class="button" href="https://aleff-gitlab.gitlab.io/" rel="noopener" target="_top">Go now!</a>
+      <small>If you are not automatically redirected, click on the button.</small>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const url = (root.dataset.to || 'https://aleff-gitlab.gitlab.io/').trim();
+      const delayMs = Number(root.dataset.delay || 1200);
+
+      try {
+        const u = new URL(url, window.location.href);
+        const hostEl = document.getElementById('host');
+        const cta = document.getElementById('cta');
+        const host = u.hostname.replace(/^www\./, '');
+        if (hostEl) hostEl.textContent = host || u.href;
+        if (cta) cta.href = u.href;
+        window.setTimeout(() => {
+          window.location.replace(u.href);
+        }, isNaN(delayMs) ? 1200 : delayMs);
+      } catch (e) {
+        console.warn('Invalid redirect URL', e);
+      }
+    })();
+  </script>
+
+  <noscript>
+    <style>#cta{display:inline-flex}</style>
+  </noscript>
+</body>
+</html>
